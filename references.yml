@@ -1,0 +1,626 @@
+# Verified against publisher-deposited Crossref metadata, 2026-09-26.
+# Dates use the print publication date where available, otherwise the published date.
+# DOI identifiers are in serial-number.doi; url is the publisher landing page.
+# Braces preserve title casing (including chemical formulae) through CSL formatting.
+# Each metadata-source comment links to the exact Crossref record used.
+
+# Metadata source: https://api.crossref.org/works/10.1021%2Fcm504242t
+mcguire-2015-cri3:
+  type: Article
+  title:
+    value: '{Coupling of Crystal Structure and Magnetism in the Layered, Ferromagnetic Insulator CrI₃}'
+    verbatim: true
+  author:
+  - McGuire, Michael A.
+  - Dixit, Hemant
+  - Cooper, Valentino R.
+  - Sales, Brian C.
+  date: '2015-01-27'
+  page-range: 612-620
+  serial-number:
+    doi: 10.1021/cm504242t
+  url: https://pubs.acs.org/doi/10.1021/cm504242t
+  parent:
+    type: Periodical
+    title: Chemistry of Materials
+    volume: 27
+    issue: 2
+
+# Source spelling corrected: Nye (not Nyle).
+# Metadata source: https://api.crossref.org/works/10.1098%2Frspa.1947.0089
+bragg-nye-1947-crystal:
+  type: Article
+  title:
+    value: '{A dynamical model of a crystal structure}'
+    verbatim: true
+  author:
+  - Bragg, William Lawrence
+  - Nye, J. F.
+  date: '1947-09-09'
+  page-range: 474-481
+  serial-number:
+    doi: 10.1098/rspa.1947.0089
+  url: https://royalsocietypublishing.org/rspa/article/190/1023/474/6615/A-dynamical-model-of-a-crystal-structure
+  parent:
+    type: Periodical
+    title: Proceedings of the Royal Society of London. Series A. Mathematical and Physical Sciences
+    volume: 190
+    issue: 1023
+
+# Metadata source: https://api.crossref.org/works/10.1103%2Fphysrevb.12.1579
+rousseau-1975-fluorides:
+  type: Article
+  title:
+    value: '{Crystallographic, elastic, and Raman scattering investigations of structural phase transitions
+      in RbCdF₃ and TlCdF₃}'
+    verbatim: true
+  author:
+  - Rousseau, M.
+  - Gesland, J. Y.
+  - Julliard, J.
+  - Nouet, J.
+  - Zarembowitch, J.
+  - Zarembowitch, A.
+  date: '1975-08-15'
+  page-range: 1579-1590
+  serial-number:
+    doi: 10.1103/physrevb.12.1579
+  url: https://link.aps.org/doi/10.1103/PhysRevB.12.1579
+  parent:
+    type: Periodical
+    title: Physical Review B
+    volume: 12
+    issue: 4
+
+# Metadata source: https://api.crossref.org/works/10.1126%2Fscience.1262118
+pitcher-2015-perovskite:
+  type: Article
+  title:
+    value: '{Tilt engineering of spontaneous polarization and magnetization above 300 K in a bulk layered
+      perovskite}'
+    verbatim: true
+  author:
+  - Pitcher, Michael J.
+  - Mandal, Pranab
+  - Dyer, Matthew S.
+  - Alaria, Jonathan
+  - Borisov, Pavel
+  - Niu, Hongjun
+  - Claridge, John B.
+  - Rosseinsky, Matthew J.
+  date: '2015-01-23'
+  page-range: 420-424
+  serial-number:
+    doi: 10.1126/science.1262118
+  url: https://www.science.org/doi/10.1126/science.1262118
+  parent:
+    type: Periodical
+    title: Science
+    volume: 347
+    issue: 6220
+
+# Metadata source: https://api.crossref.org/works/10.1002%2F%28sici%291097-4555%28199603%2927%3A3%2F4%3C351%3A%3Aaid-jrs969%3E3.0.co%3B2-n
+dresselhaus-1996-fullerenes:
+  type: Article
+  title:
+    value: '{Raman Scattering in Fullerenes}'
+    verbatim: true
+  author:
+  - Dresselhaus, M. S.
+  - Dresselhaus, G.
+  - Eklund, P. C.
+  date: 1996-03
+  page-range: 351-371
+  serial-number:
+    doi: 10.1002/(sici)1097-4555(199603)27:3/4<351::aid-jrs969>3.0.co;2-n
+  url: https://onlinelibrary.wiley.com/doi/10.1002/(SICI)1097-4555(199603)27:3/4%3C351::AID-JRS969%3E3.0.CO;2-N
+  parent:
+    type: Periodical
+    title: Journal of Raman Spectroscopy
+    volume: 27
+    issue: 3-4
+
+# Metadata source: https://api.crossref.org/works/10.1103%2Fphysrevlett.97.187401
+ferrari-2006-graphene:
+  type: Article
+  title:
+    value: '{Raman Spectrum of Graphene and Graphene Layers}'
+    verbatim: true
+  author:
+  - Ferrari, A. C.
+  - Meyer, J. C.
+  - Scardaci, V.
+  - Casiraghi, C.
+  - Lazzeri, M.
+  - Mauri, F.
+  - Piscanec, S.
+  - Jiang, D.
+  - Novoselov, K. S.
+  - Roth, S.
+  - Geim, A. K.
+  date: '2006-10-30'
+  page-range: '187401'
+  serial-number:
+    doi: 10.1103/physrevlett.97.187401
+  url: https://link.aps.org/doi/10.1103/PhysRevLett.97.187401
+  parent:
+    type: Periodical
+    title: Physical Review Letters
+    volume: 97
+    issue: 18
+
+# Metadata source: https://api.crossref.org/works/10.1063%2F1.1750606
+silver-1940-vibrations:
+  type: Article
+  title:
+    value: '{The Normal Vibrations of Molecules of the Tetramethylmethane Type}'
+    verbatim: true
+  author:
+  - Silver, Samuel
+  date: '1940-12-01'
+  page-range: 919-933
+  serial-number:
+    doi: 10.1063/1.1750606
+  url: https://pubs.aip.org/jcp/article/8/12/919/215306/The-Normal-Vibrations-of-Molecules-of-the
+  parent:
+    type: Periodical
+    title: The Journal of Chemical Physics
+    volume: 8
+    issue: 12
+
+# Metadata source: https://api.crossref.org/works/10.1038%2Fnature04233
+novoselov-2005-dirac:
+  type: Article
+  title:
+    value: '{Two-dimensional gas of massless Dirac fermions in graphene}'
+    verbatim: true
+  author:
+  - Novoselov, K. S.
+  - Geim, A. K.
+  - Morozov, S. V.
+  - Jiang, D.
+  - Katsnelson, M. I.
+  - Grigorieva, I. V.
+  - Dubonos, S. V.
+  - Firsov, A. A.
+  date: 2005-11
+  page-range: 197-200
+  serial-number:
+    doi: 10.1038/nature04233
+  url: https://www.nature.com/articles/nature04233
+  parent:
+    type: Periodical
+    title: Nature
+    volume: 438
+    issue: 7065
+
+# Metadata source: https://api.crossref.org/works/10.1126%2Fscience.1102896
+novoselov-2004-electric:
+  type: Article
+  title:
+    value: '{Electric Field Effect in Atomically Thin Carbon Films}'
+    verbatim: true
+  author:
+  - Novoselov, K. S.
+  - Geim, A. K.
+  - Morozov, S. V.
+  - Jiang, D.
+  - Zhang, Y.
+  - Dubonos, S. V.
+  - Grigorieva, I. V.
+  - Firsov, A. A.
+  date: '2004-10-22'
+  page-range: 666-669
+  serial-number:
+    doi: 10.1126/science.1102896
+  url: https://www.science.org/doi/10.1126/science.1102896
+  parent:
+    type: Periodical
+    title: Science
+    volume: 306
+    issue: 5696
+
+# Metadata source: https://api.crossref.org/works/10.1038%2F35013024
+blanco-2000-photonic:
+  type: Article
+  title:
+    value: '{Large-scale synthesis of a silicon photonic crystal with a complete three-dimensional bandgap
+      near 1.5 micrometres}'
+    verbatim: true
+  author:
+  - Blanco, Alvaro
+  - Chomski, Emmanuel
+  - Grabtchak, Serguei
+  - Ibisate, Marta
+  - John, Sajeev
+  - Leonard, Stephen W.
+  - Lopez, Cefe
+  - Meseguer, Francisco
+  - Miguez, Hernan
+  - Mondia, Jessica P.
+  - Ozin, Geoffrey A.
+  - Toader, Ovidiu
+  - van Driel, Henry M.
+  date: 2000-05
+  page-range: 437-440
+  serial-number:
+    doi: 10.1038/35013024
+  url: https://www.nature.com/articles/35013024
+  parent:
+    type: Periodical
+    title: Nature
+    volume: 405
+    issue: 6785
+
+# Metadata source: https://api.crossref.org/works/10.1038%2F382054a0
+ebbesen-1996-nanotubes:
+  type: Article
+  title:
+    value: '{Electrical conductivity of individual carbon nanotubes}'
+    verbatim: true
+  author:
+  - Ebbesen, T. W.
+  - Lezec, H. J.
+  - Hiura, H.
+  - Bennett, J. W.
+  - Ghaemi, H. F.
+  - Thio, T.
+  date: 1996-07
+  page-range: 54-56
+  serial-number:
+    doi: 10.1038/382054a0
+  url: https://www.nature.com/articles/382054a0
+  parent:
+    type: Periodical
+    title: Nature
+    volume: 382
+    issue: 6586
+
+# Source volume corrected: Nature 389 (not 386).
+# Metadata source: https://api.crossref.org/works/10.1038%2F40087
+kawazoe-1997-cualo2:
+  type: Article
+  title:
+    value: '{P-type electrical conduction in transparent thin films of CuAlO₂}'
+    verbatim: true
+  author:
+  - Kawazoe, Hiroshi
+  - Yasukawa, Masahiro
+  - Hyodo, Hiroyuki
+  - Kurita, Masaaki
+  - Yanagi, Hiroshi
+  - Hosono, Hideo
+  date: 1997-10
+  page-range: 939-942
+  serial-number:
+    doi: 10.1038/40087
+  url: https://www.nature.com/articles/40087
+  parent:
+    type: Periodical
+    title: Nature
+    volume: 389
+    issue: 6654
+
+# Metadata source: https://api.crossref.org/works/10.1038%2Fnmat2711
+ci-2010-bn-graphene:
+  type: Article
+  title:
+    value: '{Atomic layers of hybridized boron nitride and graphene domains}'
+    verbatim: true
+  author:
+  - Ci, Lijie
+  - Song, Li
+  - Jin, Chuanhong
+  - Jariwala, Deep
+  - Wu, Dangxin
+  - Li, Yongjie
+  - Srivastava, Anchal
+  - Wang, Z. F.
+  - Storr, Kevin
+  - Balicas, Luis
+  - Liu, Feng
+  - Ajayan, Pulickel M.
+  date: 2010-05
+  page-range: 430-435
+  serial-number:
+    doi: 10.1038/nmat2711
+  url: https://www.nature.com/articles/nmat2711
+  parent:
+    type: Periodical
+    title: Nature Materials
+    volume: 9
+    issue: 5
+
+# Metadata source: https://api.crossref.org/works/10.1007%2Fbf01323519
+schonenberger-1990-mfm:
+  type: Article
+  title:
+    value: '{Understanding magnetic force microscopy}'
+    verbatim: true
+  author:
+  - Schönenberger, C.
+  - Alvarado, S. F.
+  date: 1990-10
+  page-range: 373-383
+  serial-number:
+    doi: 10.1007/bf01323519
+  url: https://link.springer.com/10.1007/BF01323519
+  parent:
+    type: Periodical
+    title: Zeitschrift für Physik B Condensed Matter
+    volume: 80
+    issue: 3
+
+# Complete page range is 1455-1457; both authors included.
+# Metadata source: https://api.crossref.org/works/10.1063%2F1.97800
+martin-1987-force:
+  type: Article
+  title:
+    value: '{Magnetic imaging by “force microscopy” with 1000 Å resolution}'
+    verbatim: true
+  author:
+  - Martin, Y.
+  - Wickramasinghe, H. K.
+  date: '1987-05-18'
+  page-range: 1455-1457
+  serial-number:
+    doi: 10.1063/1.97800
+  url: https://pubs.aip.org/apl/article/50/20/1455/52159/Magnetic-imaging-by-force-microscopy-with-1000-A
+  parent:
+    type: Periodical
+    title: Applied Physics Letters
+    volume: 50
+    issue: 20
+
+# Metadata source: https://api.crossref.org/works/10.1103%2Fphysrevlett.92.166101
+melin-2004-dipoles:
+  type: Article
+  title:
+    value: '{Probing Nanoscale Dipole-Dipole Interactions by Electric Force Microscopy}'
+    verbatim: true
+  author:
+  - Mélin, T.
+  - Diesinger, H.
+  - Deresmes, D.
+  - Stiévenard, D.
+  date: '2004-04-20'
+  page-range: '166101'
+  serial-number:
+    doi: 10.1103/physrevlett.92.166101
+  url: https://link.aps.org/doi/10.1103/PhysRevLett.92.166101
+  parent:
+    type: Periodical
+    title: Physical Review Letters
+    volume: 92
+    issue: 16
+
+# Metadata source: https://api.crossref.org/works/10.1038%2Fnature04090
+dreyfus-2005-swimmers:
+  type: Article
+  title:
+    value: '{Microscopic artificial swimmers}'
+    verbatim: true
+  author:
+  - Dreyfus, Rémi
+  - Baudry, Jean
+  - Roper, Marcus L.
+  - Fermigier, Marc
+  - Stone, Howard A.
+  - Bibette, Jérôme
+  date: 2005-10
+  page-range: 862-865
+  serial-number:
+    doi: 10.1038/nature04090
+  url: https://www.nature.com/articles/nature04090
+  parent:
+    type: Periodical
+    title: Nature
+    volume: 437
+    issue: 7060
+
+# Metadata source: https://api.crossref.org/works/10.1038%2Fnmat1054
+lalatonne-2004-forces:
+  type: Article
+  title:
+    value: '{Van der Waals versus dipolar forces controlling mesoscopic organizations of magnetic nanocrystals}'
+    verbatim: true
+  author:
+  - Lalatonne, Y.
+  - Richardi, J.
+  - Pileni, M. P.
+  date: '2004-02-01'
+  page-range: 121-125
+  serial-number:
+    doi: 10.1038/nmat1054
+  url: https://www.nature.com/articles/nmat1054
+  parent:
+    type: Periodical
+    title: Nature Materials
+    volume: 3
+    issue: 2
+
+# Title uses the reading-list wording "an"; publisher/Crossref metadata contains "ein".
+# Metadata source: https://api.crossref.org/works/10.1002%2Fadma.19970090318
+mayoral-1997-silica:
+  type: Article
+  title:
+    value: '{3D Long-range ordering in an SiO₂ submicrometer-sphere sintered superstructure}'
+    verbatim: true
+  author:
+  - Mayoral, Raul
+  - Requena, Joaquin
+  - Moya, José S.
+  - López, Cefe
+  - Cintas, Adelaida
+  - Miguez, Hernán
+  - Meseguer, Francisco
+  - Vázquez, Luis
+  - Holgado, Miguel
+  - Blanco, Álvaro
+  date: 1997-03
+  page-range: 257-260
+  serial-number:
+    doi: 10.1002/adma.19970090318
+  url: https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.19970090318
+  parent:
+    type: Periodical
+    title: Advanced Materials
+    volume: 9
+    issue: 3
+
+# Source year corrected: 2010 (not 2004).
+# Metadata source: https://api.crossref.org/works/10.1021%2Fnl903868w
+splendiani-2010-mos2:
+  type: Article
+  title:
+    value: '{Emerging Photoluminescence in Monolayer MoS₂}'
+    verbatim: true
+  author:
+  - Splendiani, Andrea
+  - Sun, Liang
+  - Zhang, Yuanbo
+  - Li, Tianshu
+  - Kim, Jonghwan
+  - Chim, Chi-Yung
+  - Galli, Giulia
+  - Wang, Feng
+  date: '2010-04-14'
+  page-range: 1271-1275
+  serial-number:
+    doi: 10.1021/nl903868w
+  url: https://pubs.acs.org/doi/10.1021/nl903868w
+  parent:
+    type: Periodical
+    title: Nano Letters
+    volume: 10
+    issue: 4
+
+# German edition retained to match volume 117, pages 2842-2845.
+# International edition: 44(18), 2782-2785, https://doi.org/10.1002/anie.200462551
+# Metadata source: https://api.crossref.org/works/10.1002%2Fange.200462551
+deng-2005-ferrite:
+  type: Article
+  title:
+    value: '{Monodisperse Magnetic Single‐Crystal Ferrite Microspheres}'
+    verbatim: true
+  author:
+  - Deng, Hong
+  - Li, Xiaolin
+  - Peng, Qing
+  - Wang, Xun
+  - Chen, Jinping
+  - Li, Yadong
+  date: '2005-04-29'
+  page-range: 2842-2845
+  serial-number:
+    doi: 10.1002/ange.200462551
+  url: https://onlinelibrary.wiley.com/doi/10.1002/ange.200462551
+  parent:
+    type: Periodical
+    title: Angewandte Chemie
+    volume: 117
+    issue: 18
+
+# Metadata source: https://api.crossref.org/works/10.1038%2F35044035
+coronado-2000-ferromagnetism:
+  type: Article
+  title:
+    value: '{Coexistence of ferromagnetism and metallic conductivity in a molecule-based layered compound}'
+    verbatim: true
+  author:
+  - Coronado, Eugenio
+  - Galán-Mascarós, José R.
+  - Gómez-García, Carlos J.
+  - Laukhin, Vladimir
+  date: 2000-11
+  page-range: 447-449
+  serial-number:
+    doi: 10.1038/35044035
+  url: https://www.nature.com/articles/35044035
+  parent:
+    type: Periodical
+    title: Nature
+    volume: 408
+    issue: 6811
+
+# Metadata source: https://api.crossref.org/works/10.1038%2F29954
+tans-1998-transistor:
+  type: Article
+  title:
+    value: '{Room-temperature transistor based on a single carbon nanotube}'
+    verbatim: true
+  author:
+  - Tans, Sander J.
+  - Verschueren, Alwin R. M.
+  - Dekker, Cees
+  date: 1998-05
+  page-range: 49-52
+  serial-number:
+    doi: 10.1038/29954
+  url: https://www.nature.com/articles/29954
+  parent:
+    type: Periodical
+    title: Nature
+    volume: 393
+    issue: 6680
+
+# Open author manuscript: https://arxiv.org/abs/1511.06265
+# Metadata source: https://api.crossref.org/works/10.1021%2Facs.nanolett.5b03740
+withers-2015-wse2:
+  type: Article
+  title:
+    value: '{WSe₂ Light-Emitting Tunneling Transistors with Enhanced Brightness at Room Temperature}'
+    verbatim: true
+  author:
+  - Withers, F.
+  - Del Pozo-Zamudio, O.
+  - Schwarz, S.
+  - Dufferwiel, S.
+  - Walker, P. M.
+  - Godde, T.
+  - Rooney, A. P.
+  - Gholinia, A.
+  - Woods, C. R.
+  - Blake, P.
+  - Haigh, S. J.
+  - Watanabe, K.
+  - Taniguchi, T.
+  - Aleiner, I. L.
+  - Geim, A. K.
+  - Fal’ko, V. I.
+  - Tartakovskii, A. I.
+  - Novoselov, K. S.
+  date: '2015-12-09'
+  page-range: 8223-8228
+  serial-number:
+    doi: 10.1021/acs.nanolett.5b03740
+  url: https://pubs.acs.org/doi/10.1021/acs.nanolett.5b03740
+  parent:
+    type: Periodical
+    title: Nano Letters
+    volume: 15
+    issue: 12
+
+# Metadata source: https://api.crossref.org/works/10.1038%2Fnnano.2010.279
+radisavljevic-2011-mos2:
+  type: Article
+  title:
+    value: '{Single-layer MoS₂ transistors}'
+    verbatim: true
+  author:
+  - Radisavljevic, B.
+  - Radenovic, A.
+  - Brivio, J.
+  - Giacometti, V.
+  - Kis, A.
+  date: 2011-03
+  page-range: 147-150
+  serial-number:
+    doi: 10.1038/nnano.2010.279
+  url: https://www.nature.com/articles/nnano.2010.279
+  parent:
+    type: Periodical
+    title: Nature Nanotechnology
+    volume: 6
+    issue: 3
+
