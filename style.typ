@@ -1,12 +1,13 @@
 // InDesign-inspired weekly packet. All layout settings live here.
 #let handout-font = "Libertinus Serif"
-#let body-size = 14pt
+#let body-size = 12pt
 #let title-size = 17pt
 #let page-margin = 12.7mm
 #let time-column = 32mm
 #let column-gap = 4mm
 #let row-gap = 12pt
-#let reference-size = 11.5pt
+#let reference-size = 11pt
+#let global-leading = 0.55em
 #let journal-names = (
   "Chemistry of Materials": "Chem. Mater.",
   "Physical Review B": "Phys. Rev. B",
@@ -92,20 +93,20 @@
   )
 ]
 
-#let section-cover(title) = page[
+#let section-cover(title) = page(numbering: none)[
   #align(center + horizon)[#text(size: 30pt, weight: "bold")[#title]]
 ]
-#let slot-cover(slot, works) = page[
+#let slot-cover(slot, works) = page(/* numbering: none */)[
   #v(1fr)
   #text(size: 22pt, weight: "bold")[Topic: #slot.topic]
-  #v(18pt)
-  #text(size: 14pt)[Time: #slot.time]
-  #v(20pt)
-  #text(size: 17pt)[#article-title(works.at(slot.key))]
   #v(10pt)
-  #text(size: 13pt)[#paper-reference(works.at(slot.key))]
-  #v(20pt)
-  #text(size: 14pt, weight: "bold")[#slot.presenter]
+  #text(size: 22pt, weight:200, fill: rgb("#9e9d9d"))[Time: #slot.time]
+  #v(65pt)
+  #text(size: 15pt)[#article-title(works.at(slot.key))]
+  #v(10pt)
+  #text(size: 15pt)[#paper-reference(works.at(slot.key))]
+  #v(10pt)
+  #text(size: 15pt, weight: "bold")[#slot.presenter]
   #v(1fr)
 ]
 
@@ -130,7 +131,7 @@
 ) = {
   set page(paper: "a4", margin: page-margin, numbering: "1", number-align: center)
   set text(font: handout-font, size: body-size, fill: black)
-  set par(leading: 0.3em, spacing: 0.5em)
+  set par(leading: global-leading, spacing: 0.5em)
   let clubs = sessions.filter(s => s.kind == "journal-club")
   assert(clubs.map(s => s.id).dedup().len() == clubs.len(), message: "Each journal club needs a unique id")
   page[
@@ -145,6 +146,7 @@
     #topics
     #v(20pt)
     #strong[Timetable:]\
+    #v(7pt)
     #strong(date)
     #v(12pt)
     #for slot in sessions { timetable-row(slot, works) }
@@ -170,4 +172,27 @@
       ]
     }
   }
+}
+
+#let format-date(value) = {
+  let s = if type(value) == str { value } else { value.text }
+  assert(s.len() == 8, message: "Use YYYYMMDD")
+
+  let day = int(s.slice(6, 8))
+  let d = datetime(
+    year: int(s.slice(0, 4)),
+    month: int(s.slice(4, 6)),
+    day: day,
+  )
+
+  let suffix = if day >= 11 and day <= 13 {
+    "th"
+  } else {
+    ("1": "st", "2": "nd", "3": "rd").at(
+      str(calc.rem(day, 10)),
+      default: "th",
+    )
+  }
+
+  [#day#super(suffix) of #d.display("[month repr:long]")]
 }
