@@ -624,3 +624,25 @@ radisavljevic-2011-mos2:
     volume: 6
     issue: 3
 
+zha2027:
+  type: Article
+  title: "A Buried Sulfonate Molecular Bridge for Synchronous Charge Transport and Defect Passivation in High-Performance Perovskite Solar Cells"
+  author:
+    - "Zha, Leying"
+    - "Ding, Weilu"
+    - "Gao, Yalin"
+    - "Wu, Xiao"
+    - "Song, Tinglu"
+    - "Li, Changhua"
+    - "Duan, Chenghao"
+    - "Lu, Xinhui"
+    - "Cai, Guilong"
+    - "Zhang, Suojiang"
+  date: 2027
+  serial-number:
+    doi: "10.1007/s40820-026-02278-6"
+    serial: "35"
+  parent:
+    type: Periodical
+    title: "Nano-Micro Letters"
+    volume: 19
