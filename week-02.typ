@@ -17,8 +17,8 @@
     pdf: "/assets/papers/s40820-026-02278-6.pdf",
     pages: 13,
     // The student's figure-summary PDF goes after “Journal club handouts”.
-    // student-handout: "/assets/handouts/mireia1_Reciprocal space and diffraction. Handout.pdf",
-    // handout-pages: 1,
+    student-handout: "/assets/handouts/Lattices Handout.pdf",
+    handout-pages: 1,
   ),
   activity(
     time: "15.35–16.30",
