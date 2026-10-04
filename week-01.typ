@@ -5,27 +5,27 @@
 // Add more journal-club(...) entries for future students, each with a unique id.
 #let sessions = (
   activity(
-    time: "10.00–10.10",
+    time: "15.00–15.10",
     title: [Know your fellow master students exercise!],
     presenter: "Whole class",
   ),
   activity(
-    time: "10.10–10.30",
+    time: "15.10–15.30",
     title: [Goal, limitations and mechanics of the course.],
     notes: [Reading together the first handout.],
     presenter: "Efrén Navarro",
   ),
   activity(
-    time: "10.30–11.00",
+    time: "15.30–16.00",
     title: [Introduction to the journal club and slot allocation.],
     presenter: "Efrén Navarro",
   ),
   journal-club(
-    id: "demo", topic: "Student journal club demo", time: "11.00–11.30",
+    id: "demo", topic: "Student journal club demo", time: "16.00–16.30",
     presenter: "Efrén Navarro", key: "mcguire-2015-cri3",
     // Replace none with a local PDF path, and 0 with its actual page count.
     pdf: "/assets/papers/demo.pdf",
-    pages: 3,
+    pages: 9,
     // The student's figure-summary PDF goes after “Journal club handouts”.
     student-handout: "/assets/handouts/demo_handout.pdf",
     handout-pages: 1,
