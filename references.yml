@@ -646,3 +646,16 @@ zha2027:
     type: Periodical
     title: "Nano-Micro Letters"
     volume: 19
+
+loza-vega-paracetamol-2027:
+  type: Article
+  title: "Radiolytic stability of paracetamol in montmorillonite complexes: Influence of the mineral matrix on radiolytic yields and molecular persistence"
+  author: ["Loza-Vega, A. S.", "Cruz-Castañeda, J. A.", "Negrón-Mendoza, A.", "Meléndez-López, A. L."]
+  date: 2027-02
+  doi: "10.1016/j.radphyschem.2026.114450"
+  url: "https://www.sciencedirect.com/science/article/pii/S0969806X26008601"
+  parent:
+    type: Periodical
+    title: "Radiation Physics and Chemistry"
+    volume: 251
+    issue: 114450
