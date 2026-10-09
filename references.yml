@@ -659,3 +659,22 @@ loza-vega-paracetamol-2027:
     title: "Radiation Physics and Chemistry"
     volume: 251
     issue: 114450
+
+balestra2016thermal:
+  type: Article
+  title: "Controlling Thermal Expansion: A Metal–Organic Frameworks Route"
+  author:
+    - "Balestra, Salvador R. G."
+    - "Bueno-Perez, Rocio"
+    - "Hamad, Said"
+    - "Dubbeldam, David"
+    - "Ruiz-Salvador, A. Rabdel"
+    - "Calero, Sofia"
+  date: 2016
+  parent:
+    type: Periodical
+    title: "Chemistry of Materials"
+    volume: 28
+    issue: 22
+  page-range: 8296-8304
+  doi: "10.1021/acs.chemmater.6b03457"
