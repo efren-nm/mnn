@@ -17,8 +17,8 @@
     pdf: "/assets/papers/1-s2.0-S0969806X26008601-main.pdf",
     pages: 10,
     // The student's figure-summary PDF goes after “Journal club handouts”.
-    // student-handout: "/assets/handouts/Lattices Handout.pdf",
-    // handout-pages: 1,
+    student-handout: "/assets/handouts/Vibration Handout.pdf",
+    handout-pages: 1,
   ),
   activity(
     time: "10.35–11.30",
