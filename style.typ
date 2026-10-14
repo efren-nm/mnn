@@ -22,9 +22,10 @@
   "Angewandte Chemie": "Angew. Chem.",
 )
 
-#let activity(time: "", title: [], presenter: "", notes: none) = (
-  kind: "activity", time: time, title: title, presenter: presenter, notes: notes,
+#let activity(time: "", title: [], presenter: "", notes: none, handout: none, handout-pages: none) = (
+  kind: "activity", time: time, title: title, presenter: presenter, notes: notes, handout: handout, handout-pages: handout-pages,
 )
+
 #let journal-club(
   id: "", time: "", topic: "", presenter: "", key: "",
   pdf: none, pages: 0, student-handout: none, handout-pages: 0,
@@ -65,6 +66,7 @@
     link("https://doi.org/" + entry.serial-number.doi, citation)
   } else { citation }
 }
+
 #let paper-label(slot) = label("paper-first-" + slot.id)
 
 #let timetable-row(slot, works) = block(below: row-gap, breakable: false)[
@@ -132,6 +134,7 @@
   set page(paper: "a4", margin: page-margin, numbering: "1", number-align: center)
   set text(font: handout-font, size: body-size, fill: black)
   set par(leading: global-leading, spacing: 0.5em)
+  let activities = sessions.filter(s => s.kind == "activity")
   let clubs = sessions.filter(s => s.kind == "journal-club")
   assert(clubs.map(s => s.id).dedup().len() == clubs.len(), message: "Each journal club needs a unique id")
   page[
@@ -152,6 +155,11 @@
     #for slot in sessions { timetable-row(slot, works) }
   ]
   section-cover("Journal club handouts")
+  for slot in activities {
+    if slot.handout != none {
+      append-pdf(slot.handout, slot.handout-pages)
+    }
+  }
   for slot in clubs {
     if slot.student-handout != none {
       append-pdf(slot.student-handout, slot.handout-pages)
