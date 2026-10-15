@@ -678,3 +678,24 @@ balestra2016thermal:
     issue: 22
   page-range: 8296-8304
   doi: "10.1021/acs.chemmater.6b03457"
+
+zhu2021interlayer:
+  type: Article
+  title: "Construction of Interlayer Conjugated Links in 2D Covalent Organic Frameworks via Topological Polymerization"
+  author:
+    - Zhu, Yuhao
+    - Shao, Pengpeng
+    - Hu, Linyu
+    - Sun, Chao
+    - Li, Jie
+    - Feng, Xiao
+    - Wang, Bo
+  date: 2021
+  parent:
+    type: Periodical
+    title: Journal of the American Chemical Society
+    volume: 143
+    issue: 21
+  page-range: 7897-7902
+  serial-number:
+    doi: 10.1021/jacs.1c02932

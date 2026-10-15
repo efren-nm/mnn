@@ -33,12 +33,12 @@
     // presenter: "Efrén Navarro",
   ),
   journal-club(
-    id: "jc2", topic: "Vibrations in periodic structures", time: "16.45–16.05",
-    presenter: "Nerea Giménez", key: "balestra2016thermal",
-    // Replace none with a local PDF path, and 0 with its actual page count.
-    pdf: "/assets/papers/acs.chemmater.6b03457.pdf",
-    pages: 8,
-    student-handout: "/assets/handouts/nerea1.pdf",
+    id: "jc2", topic: "Bands in semiconductors", time: "16.45–16.05",
+    presenter: "Nerea Giménez", key: "zhu2021interlayer",
+    // Replace none with a local PDF path, and 0 with its actual  page count.
+    pdf: "/assets/papers/ja1c02932.pdf",
+    pages: 6,
+    student-handout: "/assets/handouts/Handout physics semiconductors (1).pdf",
     handout-pages: 1,
   ),
   activity(
