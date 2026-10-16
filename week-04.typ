@@ -14,10 +14,10 @@
   ),
   journal-club(
     id: "jc1", topic: "Harmonic oscillator and vibrations in molecules", time: "15.15–15.35",
-    presenter: "Lucía Navas", key: "loza-vega-paracetamol-2027",
+    presenter: "Julio Recuero", key: "brozzesi2022graphene",
     // Replace none with a local PDF path, and 0 with its actual page count.
-    pdf: "/assets/papers/1-s2.0-S0969806X26008601-main.pdf",
-    pages: 10,
+    pdf: "/assets/papers/nanomaterials-12-02118-v2 (1).pdf",
+    pages: 13,
     // The student's figure-summary PDF goes after “Journal club handouts”.
     student-handout: "/assets/handouts/Vibration Handout.pdf",
     handout-pages: 1,

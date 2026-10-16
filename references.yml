@@ -699,3 +699,26 @@ zhu2021interlayer:
   page-range: 7897-7902
   serial-number:
     doi: 10.1021/jacs.1c02932
+
+
+brozzesi2022graphene:
+  type: Article
+  title: "Ab Initio Study of Graphene/hBN Van der Waals Heterostructures: Effect of Electric Field, Twist Angles and p-n Doping on the Electronic Properties"
+  author:
+    - Brozzesi, Simone
+    - Attaccalite, Claudio
+    - Buonocore, Francesco
+    - Giorgi, Giacomo
+    - Palummo, Maurizia
+    - Pulci, Olivia
+  date: 2022-06-20
+  parent:
+    type: Periodical
+    title: Nanomaterials
+    volume: 12
+    issue: 12
+  serial-number:
+    doi: 10.3390/nano12122118
+  page-range: 2118
+  url: https://doi.org/10.3390/nano12122118
+
