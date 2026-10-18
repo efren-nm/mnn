@@ -13,13 +13,13 @@
     handout-pages: 1,
   ),
   journal-club(
-    id: "jc1", topic: "Harmonic oscillator and vibrations in molecules", time: "15.15–15.35",
+    id: "jc1", topic: "Electronic structure of metals", time: "15.15–15.35",
     presenter: "Julio Recuero", key: "brozzesi2022graphene",
     // Replace none with a local PDF path, and 0 with its actual page count.
     pdf: "/assets/papers/nanomaterials-12-02118-v2 (1).pdf",
     pages: 13,
     // The student's figure-summary PDF goes after “Journal club handouts”.
-    student-handout: "/assets/handouts/Vibration Handout.pdf",
+    student-handout: "/assets/handouts/handout_electronbandsinsolids.pdf",
     handout-pages: 1,
   ),
   activity(
