@@ -722,3 +722,38 @@ brozzesi2022graphene:
   page-range: 2118
   url: https://doi.org/10.3390/nano12122118
 
+bid2006temperature:
+  type: article
+  title: "Temperature dependence of the resistance of metallic nanowires (diameter ≥ 15 nm): Applicability of Bloch-Grüneisen theorem"
+  author:
+    - Bid, Aveek
+    - Bora, Achyut
+    - Raychaudhuri, A. K.
+  date: 2006
+  parent:
+    type: periodical
+    title: Physical Review B
+    volume: 74
+    issue: 3
+  page-range: 035426
+  doi: 10.1103/PhysRevB.74.035426
+  url: https://arxiv.org/abs/cond-mat/0607674
+
+njema2024design:
+  type: article
+  title: "Design and optimization analysis of a lead-free perovskite solar cell based on copper (I) iodide hole transport layer"
+  author:
+    - Njema, George G.
+    - Kioko, Vincent
+    - Mwangi, Bonface N.
+    - Kibet, Joshua K.
+  date: 2024
+  parent:
+    type: periodical
+    title: Optical and Quantum Electronics
+    volume: 56
+  serial-number:
+    doi: 10.1007/s11082-024-07800-x
+  url: https://doi.org/10.1007/s11082-024-07800-x
+
+

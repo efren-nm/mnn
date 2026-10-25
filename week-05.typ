@@ -6,20 +6,20 @@
 #let sessions = (
   activity(
     time: "15.00–15.15",
-    title: [Practical example of lattice & phonons and brief introduction to today's class: electrons],
+    title: [Brief introduction to today's class: electrons across a solid.],
     // notes: [Reading together the first handout.],
     presenter: "Efrén Navarro",
-    handout: "/assets/handouts/how4.svg",
-    handout-pages: 1,
+    // handout: "/assets/handouts/how4.svg",
+    // handout-pages: 1,
   ),
   journal-club(
-    id: "jc1", topic: "Electronic structure of metals", time: "15.15–15.35",
-    presenter: "Julio Recuero", key: "brozzesi2022graphene",
+    id: "jc1", topic: "Electronic transport across metals", time: "15.15–15.35",
+    presenter: "Ángela Cuenca", key: "bid2006temperature",
     // Replace none with a local PDF path, and 0 with its actual page count.
-    pdf: "/assets/papers/nanomaterials-12-02118-v2 (1).pdf",
-    pages: 13,
+    pdf: "/assets/papers/0607674v1.pdf",
+    pages: 8,
     // The student's figure-summary PDF goes after “Journal club handouts”.
-    student-handout: "/assets/handouts/handout_electronbandsinsolids.pdf",
+    student-handout: "/assets/handouts/Electric transport in metals - Handout5.pdf",
     handout-pages: 1,
   ),
   activity(
@@ -33,12 +33,12 @@
     // presenter: "Efrén Navarro",
   ),
   journal-club(
-    id: "jc2", topic: "Bands in semiconductors", time: "16.45–16.05",
-    presenter: "Nerea Giménez", key: "zhu2021interlayer",
+    id: "jc2", topic: "Electronic transport in semiconductors", time: "16.45–16.05",
+    presenter: "Gladys Betanzo", key: "njema2024design",
     // Replace none with a local PDF path, and 0 with its actual  page count.
-    pdf: "/assets/papers/ja1c02932.pdf",
-    pages: 6,
-    student-handout: "/assets/handouts/Handout physics semiconductors (1).pdf",
+    pdf: "/assets/papers/s11082-024-07800-x.pdf",
+    pages: 38,
+    student-handout: "/assets/handouts/Paper Handout.pdf",
     handout-pages: 1,
   ),
   activity(
@@ -50,13 +50,13 @@
 
 #handout(
   week: 4,
-  title: "Electrons in solids",
+  title: "Electrons transport across solids",
   course: "Physics classes, M1 introductory module",
   program: "Master in Molecular Nanoscience and Nanotechnology",
   location: "ICMol Seminar room 0.10.6",
   // date: "15th of October",
-  date: format-date[20261019],
-  topics: [Wave functions. Operators and states. Schrödinger equation. Quantum confinement and bound states. Bands in solids. Effective mass. Density of States. Metals and insulators.],
+  date: format-date[20261026],
+  topics: [Charge transport: Drude model and Ohm's law. Transport in semiconductors: electrons and holes.],
   sessions: sessions,
   works: works,
 )
