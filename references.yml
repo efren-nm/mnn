@@ -756,4 +756,33 @@ njema2024design:
     doi: 10.1007/s11082-024-07800-x
   url: https://doi.org/10.1007/s11082-024-07800-x
 
+hyodo2022displacement:
+  type: article
+  title: "Maxwell's displacement current and the magnetic field between capacitor electrodes"
+  author:
+    - Hyodo, Toshio
+  date: 2022
+  parent:
+    type: periodical
+    title: European Journal of Physics
+    volume: 43
+  serial-number:
+    doi: 10.1088/1361-6404/ac8705
+  page-range: 065202
+
+alaeian2014:
+  type: article
+  title: "Parity-time-symmetric plasmonic metamaterials"
+  author:
+    - Alaeian, Hadiseh
+    - Dionne, Jennifer A.
+  date: 2014
+  parent:
+    type: periodical
+    title: Physical Review A
+    volume: 89
+    issue: 3
+  serial-number:
+    doi: 10.1103/PhysRevA.89.033829
+  page-range: 033829
 
