@@ -786,3 +786,53 @@ alaeian2014:
     doi: 10.1103/PhysRevA.89.033829
   page-range: 033829
 
+li2025modified:
+  type: Article
+  title: Modified Lorentz oscillator on modeling the dielectric function of Si and Ge
+  author:
+    - Li, Zhenfei
+    - Zhang, Liping
+    - Zhou, Yinuo
+    - Zhang, Honghua
+    - Cheng, Haodong
+    - Meng, Fanying
+    - Liu, Wenzhu
+    - Liu, Zhengxin
+  date: 2025
+  serial-number:
+    doi: 10.1140/epjp/s13360-025-06201-7
+  parent:
+    type: Periodical
+    title: The European Physical Journal Plus
+    volume: 140
+
+mamo2026plasmonic:
+  type: Article
+  title: "Size and dielectric-dependent plasmonic resonances in CdS@Ag core–shell quantum dots: Field enhancement, dispersion, and slow-light effects"
+  author:
+    - Mamo, Shewa Getachew
+  date: 2026
+  serial-number:
+    doi: 10.1016/j.physe.2025.116371
+  parent:
+    type: Periodical
+    title: "Physica E: Low-dimensional Systems and Nanostructures"
+    volume: 175
+
+wu2021chameleon:
+  type: Article
+  title: Artificial Chameleon Skin with Super-Sensitive Thermal and Mechanochromic Response
+  author:
+    - Wu, Yue
+    - Wang, Yu
+    - Zhang, Shufen
+    - Wu, Suli
+  date: 2021
+  page-range: 15720-15729
+  serial-number:
+    doi: 10.1021/acsnano.1c05612
+  parent:
+    type: Periodical
+    title: ACS Nano
+    volume: 15
+    issue: 10
