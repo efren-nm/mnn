@@ -38,7 +38,7 @@
     // Replace none with a local PDF path, and 0 with its actual  page count.
     pdf: "/assets/papers/Long-range order magnetism - paper (1).pdf",
     pages: 10,
-    student-handout: "/assets/handouts/Handout physics Optical properties (1).pdf",
+    student-handout: "/assets/handouts/Long-range order magnetism - handout.pdf",
     handout-pages: 1,
   ),
   activity(
