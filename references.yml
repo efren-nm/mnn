@@ -836,3 +836,34 @@ wu2021chameleon:
     title: ACS Nano
     volume: 15
     issue: 10
+
+coak2021:
+  type: article
+  title: "Emergent Magnetic Phases in Pressure-Tuned van der Waals Antiferromagnet FePS₃"
+  author:
+    - Coak, Matthew J.
+    - Jarvis, David M.
+    - Hamidov, Hayrullo
+    - Wildes, Andrew R.
+    - Paddison, Joseph A. M.
+    - Liu, Cheng
+    - Haines, Charles R. S.
+    - Dang, Ngoc T.
+    - Kichanov, Sergey E.
+    - Savenko, Boris N.
+    - Lee, Sungmin
+    - Kratochvílová, Marie
+    - Klotz, Stefan
+    - Hansen, Thomas
+    - Kozlenko, Denis P.
+    - Park, Je-Geun
+    - Saxena, Siddharth S.
+  date: 2021
+  serial-number:
+    doi: 10.1103/PhysRevX.11.011024
+  parent:
+    type: periodical
+    title: Physical Review X
+    volume: 11
+    issue: 1
+  page-range: 011024

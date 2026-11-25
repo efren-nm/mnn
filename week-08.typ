@@ -34,10 +34,10 @@
   ),
   journal-club(
     id: "jc2", topic: "Long-range order magnetism", time: "16.45–16.05",
-    presenter: "Ángela Cuenca", key: "wu2021chameleon",
+    presenter: "Ángela Cuenca", key: "coak2021",
     // Replace none with a local PDF path, and 0 with its actual  page count.
-    pdf: "/assets/papers/nn1c05612.pdf",
-    pages: 8,
+    pdf: "/assets/papers/Long-range order magnetism - paper (1).pdf",
+    pages: 10,
     student-handout: "/assets/handouts/Handout physics Optical properties (1).pdf",
     handout-pages: 1,
   ),
