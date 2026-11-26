@@ -14,9 +14,9 @@
   ),
   journal-club(
     id: "jc1", topic: "(super)Paramagnetism", time: "15.15–15.35",
-    presenter: "Julio Recuero", key: "li2025modified",
+    presenter: "Julio Recuero", key: "garrido2025",
     // Replace none with a local PDF path, and 0 with its actual page count.
-    pdf: "/assets/papers/s13360-025-06201-7.pdf",
+    pdf: "/assets/papers/d4nr04572f.pdf",
     pages: 10,
     // The student's figure-summary PDF goes after “Journal club handouts”.
     // student-handout: "/assets/handouts/Electric transport in metals - Handout5.pdf",

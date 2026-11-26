@@ -867,3 +867,27 @@ coak2021:
     volume: 11
     issue: 1
   page-range: 011024
+
+garrido2025:
+  type: article
+  title: "A rapid synthesis of magnetic-core mesoporous silica-shell nanostructures – as potential theranostic agents – by means of microwave irradiation and the atrane method"
+  author:
+    - "Garrido, M. Dolores"
+    - "Hamawandi, Bejan"
+    - "Serrano-Claumarchirant, José Francisco"
+    - "Saladino, Giovanni Marco"
+    - "Ergül, Adem B."
+    - "Marcos, M. Dolores"
+    - "Ros-Lis, José Vicente"
+    - "Amorós, Pedro"
+    - "Toprak, Muhammet S."
+  date: 2025
+  page-range: 6539-6549
+  serial-number:
+    doi: "10.1039/D4NR04572F"
+  parent:
+    type: periodical
+    title: Nanoscale
+    volume: 17
+    issue: 11
+    publisher: Royal Society of Chemistry
